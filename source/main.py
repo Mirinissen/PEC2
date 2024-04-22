@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 
 
 # PIE CHART
-import matplotlib.pyplot as plt
 import pandas as pd
 
 DF = pd.read_csv('dataset/titanic-1.csv', sep=',')
