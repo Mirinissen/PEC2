@@ -5,8 +5,7 @@
 
 
 # RAINCLOUD PLOTS
-# Si es necesario, se instalan los paquetes
-pip install seaborn matplotlib ptitprince
+pip install seaborn matplotlib ptitprince  # Si es necesario, se instalan los paquetes
 
 import ptitprince as pt
 import seaborn as sns
