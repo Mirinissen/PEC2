@@ -1,12 +1,20 @@
 # Si es necesario, se instalan las librerías
 pip install matplotlib
+pip install matplotlib_venn
 pip install seaborn 
 pip install ptitprince
 
 # DIAGRAMA DE VENN
 import matplotlib.pyplot as plt
+from matplotlib_venn import venn2
 
+French = {'Arthur', 'Leonard', 'Debby', 'Bernadette', 'Alice', 'Ron', 'Penny', 'Sheldon'}
+Math = {'Amy', 'Leo', 'Ash', 'Brandon', 'Sara', 'Alice', 'Ron', 'Annie', 'Jake', 'Zac'
+df = French | Math
 
+venn2([Math,French], set_labels = ('Math','French'), set_colors=("blue", "pink"))
+plt.title('Relación de estudiantes que toman clases de Mates y Francés')
+plt.show()
 
 # PIE CHART
 import pandas as pd
