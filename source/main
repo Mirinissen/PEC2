@@ -1,9 +1,21 @@
+# DIAGRAMA DE VENN
 
-# Raincloud Plots
+
+# PIE CHART
 
 
+# RAINCLOUD PLOTS
+# Si es necesario, se instalan los paquetes
+pip install seaborn matplotlib ptitprince
+
+import ptitprince as pt
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Cargamos los datos omitiendo los nulos
+data = sns.load_dataset('penguins')
+peng = data.dropna()
 
-
-# Creamos el gráfico
+# Creamos el gráfico y lo mostramos
+rc = pt.RainCloud(x = 'species', y = 'bill_length_mm', data = peng, palette = "Set2", orient = "h")
+plt.show()
