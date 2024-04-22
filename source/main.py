@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib_venn import venn2
 
 French = {'Arthur', 'Leonard', 'Debby', 'Bernadette', 'Alice', 'Ron', 'Penny', 'Sheldon'}
-Math = {'Amy', 'Leo', 'Ash', 'Brandon', 'Sara', 'Alice', 'Ron', 'Annie', 'Jake', 'Zac'
+Math = {'Amy', 'Leo', 'Ash', 'Brandon', 'Sara', 'Alice', 'Ron', 'Annie', 'Jake', 'Zac'}
 df = French | Math
 
 venn2([Math,French], set_labels = ('Math','French'), set_colors=("blue", "pink"))
