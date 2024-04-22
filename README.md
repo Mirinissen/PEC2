@@ -4,6 +4,8 @@ En este repositorio se muestran los tres gráficos requeridos para la PEC 2. Ade
 ## Diagrama de Venn
 
 ## Pie Chart
+![pie](https://github.com/Mirinissen/PEC2/assets/166635974/c2318242-a8b1-44af-b11c-08e3c283a6cf)
+
 
 ## Raincloud Plots
 ![rcp](https://github.com/Mirinissen/PEC2/assets/166635974/3bb400d2-5a46-428f-978a-1309346983c3)
